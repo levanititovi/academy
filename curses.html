@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>კურსები-კიბერ აკადემია</title>
+    <link rel="stylesheet" href="style/curses.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<style>
+    html,
+    body {
+      position: relative;
+      height: 100vh;
+      margin: 0px;
+      background-color: #16213b;
+    }
+ 
+   
+    
+  </style>
+<body>
+
+  <div id="mySidebar2" class="sidebar2">
+    <a href="javascript:void(1)" class="closebtn" onclick="closeNav()">☰</a>
+    <a href="index.html">მთავარი</a>
+    <a href="davits.html">კურსები</a>
+    <a href="gallery.html">გალერეა</a>
+    <a href="mentors.html">მენტორები</a>
+    <a href="partneors.html">პარტნიორები</a>
+  </div>
+  
+  <div id="main2">
+    <button class="openbtn" id="openBtn" onclick="openNav()">☰ </button>  
+   
+  </div>
+
+  <div class="container ">
+    <a href="index.html">
+      <button class="glow-on-hover" type="button">მართვა</button>
+    </a>
+    <a href="davits.html">
+      <button class="glow-on-hover" type="button">კურსები</button>
+    </a>    
+    <a href="gallery.html">
+      <button class="glow-on-hover" type="button">გალერეა</button>
+    </a>
+    <a href="mentors.html">
+      <button class="glow-on-hover" type="button">მენტორები</button>
+    </a>
+    <a href="partneors.html">
+      <button class="glow-on-hover" type="button">პარტნიორები</button>
+    </a>
+    
+  </div>
+
+
+  <div id="mySidebar" class="sidebar" onmouseover="toggleSidebar()" onmouseout="toggleSidebar()">
+        
+
+    <div class="mic"
+    id="mic">
+      
+      <div class="mic-shadow">
+        </div>
+      </div>
+      
+    
+
+    <div class="inner-side-menu">
+      <div class="header-container5"
+      id="header">
+        ჩვენ შესახებ
+      </div>
+      <div class="fix-it-container5">
+      <div class="texter1-container5"
+      id="number">
+        
+        +995 577 427 000
+
+      </div>
+      </div>
+      <div class="fix-it-container5">
+      <div class="texter2-container5"
+      id="addres">
+         <br>
+        ბათუმი, აღმაშენებლის 2 <br>
+        <br>
+        <br >
+        INFO@ACADEMY.EDU.GE
+
+      </div>
+    </div>
+
+      <div class="boxes-in-container5"
+      >
+
+        <div class="box1-container5">
+          <div class="header-box-container5" id="map">
+            MAP
+
+          </div>
+          <div class="maper"  >
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d312.29081238841826!2d41.612592077053016!3d41.63182261629536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406787a6b8a7e515%3A0xf66f06747969ee30!2sLLC%20Cyber%20Solutions!5e0!3m2!1sru!2sge!4v1706012975837!5m2!1sru!2sge" width="300" height="300" style="border:0;" allowfullscreen="" loading="fast" referrerpolicy="no-referrer-when-downgrade" id="maper"></iframe>
+
+          </div>
+        </div>
+    </div>
+    </div>
+    
+    
+    
+
+
+      
+        
+     
+
+  </div>
+  
+  
+  <div id="main">
+    
+    
+  </div>
+
+<!-- sidebar -->
+
+
+    <div class="header-main">LOREM IPSUN</div>
+      <div class="microsoft">
+        <div class="content-main">
+            <div class="photo-main"></div>
+            <div class="text-lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut suscipit nesciunt distinctio rerum alias nisi facilis assumenda veniam, quod vel ullam error, aliquid impedit doloremque officia, sapiente veritatis nobis voluptates.</div>
+            <div class="text-lorem2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas facilis soluta doloribus blanditiis maiores expedita sed numquam pariatur delectus rerum quae, et in consequatur amet eum illum officiis, est quam!</div>
+
+        </div>
+        <div class="about-main">
+            <div class="box1"></div>
+            <div class="box1"></div>
+            <div class="box1"></div>
+            <div class="box1"></div>
+            <div class="box2"></div>
+        </div>
+      </div>
+
+
+      
+
+
+      <script>
+        var mini = false;
+
+function toggleSidebar() {
+  if (mini) {
+    console.log("closing sidebar");
+    document.getElementById("mySidebar").style.width = "90px";
+    document.getElementById("main").style.marginLeft = "90px";
+    document.getElementById("mic")
+    mic.style.display = "block";
+    document.getElementById("header")
+    header.style.marginLeft = "190px";
+    document.getElementById("number")
+    number.style.marginLeft = "190px";
+    document.getElementById("addres")
+    addres.style.marginLeft = "190px";
+    document.getElementById("map")
+    map.style.marginLeft = "190px";
+    document.getElementById("maper")
+    maper.style.marginLeft = "50px";
+        
+    
+    this.mini = false;
+  } else {
+    console.log("opening sidebar");
+    document.getElementById("mySidebar").style.width = "430px";
+    document.getElementById("main").style.marginLeft = "430px";
+    document.getElementById("mic")
+    mic.style.display = "none";
+    document.getElementById("header")
+    header.style.marginLeft = "20px";
+    document.getElementById("header")
+    header.style.marginLeft = "20px";
+    document.getElementById("number")
+    number.style.marginLeft = "20px";
+    document.getElementById("addres")
+    addres.style.marginLeft = "20px";
+    document.getElementById("map")
+    map.style.marginLeft = "-30px";
+    document.getElementById("maper")
+    maper.style.marginLeft = "-85px";
+
+
+
+
+    this.mini = true;
+  }
+}
+
+
+function openNav() {
+document.getElementById("openBtn").style.display = "none"
+  document.getElementById("mySidebar2").style.width = "250px";
+  document.getElementById("main2").style.marginLeft = "250px";
+  
+}
+
+function closeNav() {
+document.getElementById("openBtn").style.display = "block"
+  document.getElementById("mySidebar2").style.width = "0";
+  document.getElementById("main2").style.marginLeft= "0";
+}
+      </script>
+    
+</body>
+</html>
